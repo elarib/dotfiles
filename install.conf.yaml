@@ -1,0 +1,12 @@
+- clean: ['~']
+
+- link:
+    ~/.bashrc: bashrc
+    ~/.zshrc: zshrc
+    ~/.ssh/config:
+        path: ssh/config
+        create: true
+
+- shell: 
+    - [brew bundle install]
+
