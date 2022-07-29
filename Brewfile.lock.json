@@ -8,10 +8,10 @@
         "revision": "4756e4c4cf95485c5ea4da27375946c1dac2c71d"
       },
       "homebrew/cask": {
-        "revision": "7ab1edfa30dca5fe47e535815fd022034c80790d"
+        "revision": "b9a737c7f7aee4a972d5d74752cc6e2389ce1e7d"
       },
       "homebrew/core": {
-        "revision": "09778d3a68709bcd2f842d2946d6d9f901c462f6"
+        "revision": "5d08ba9d5f3e7e2c726f8c0b1158d3740e5a076f"
       },
       "hudochenkov/sshpass": {
         "revision": "04cf50bd8e92d3c05de13ced8eb0f71c6db2f223"
@@ -695,7 +695,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "09778d3a68709bcd2f842d2946d6d9f901c462f6",
+        "Homebrew/homebrew-core": "5d08ba9d5f3e7e2c726f8c0b1158d3740e5a076f",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4.1",
         "macOS": "12.4"

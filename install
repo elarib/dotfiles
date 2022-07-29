@@ -15,3 +15,6 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 git submodule update --init --recursive "${PRIVATE_DOTFILE_DIR}"
 
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+
+
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}/${PRIVATE_DOTFILE_DIR}" -c "${PRIVATE_DOTFILE_DIR}/${CONFIG}" "${@}"
