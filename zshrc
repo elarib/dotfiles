@@ -33,3 +33,7 @@ export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home
+
+
+alias python="$(pyenv which python)"
+alias pip="$(pyenv which pip)"
