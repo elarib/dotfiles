@@ -3,10 +3,13 @@
 - link:
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
+    ~/.finicky.js:
+        path: finicky.js
+        create: true
     ~/.ssh/config:
         path: ssh/config
         create: true
 
-# - shell: 
-#     - [brew bundle install]
+- shell: 
+    - [brew bundle install]
 
